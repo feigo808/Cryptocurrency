@@ -1,4 +1,4 @@
-package com.feiyatsu.cryptocurrency.ui.theme
+package com.feiyatsu.cryptocurrency.presentation.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
