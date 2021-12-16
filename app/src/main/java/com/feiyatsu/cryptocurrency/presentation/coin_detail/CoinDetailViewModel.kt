@@ -8,10 +8,12 @@ import androidx.lifecycle.viewModelScope
 import com.feiyatsu.cryptocurrency.common.Constants
 import com.feiyatsu.cryptocurrency.common.Resource
 import com.feiyatsu.cryptocurrency.domain.use_case.GetCoinUseCase
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import javax.inject.Inject
 
+@HiltViewModel
 class CoinDetailViewModel @Inject constructor(
     private val getCoinUseCase: GetCoinUseCase,
     savedStateHandle: SavedStateHandle
